@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.whole{
+  background-color: #004643;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: #fffffe;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+div.profile img{
+  width: 25vw;
+  height: 65vh;
+  border-radius: 50%;
+}
+
+div.firstpage div.headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  margin: 5px;
+  padding: 10px;
+
+}
+div.headings div.icons{
+  display: flex;
+  justify-content: space-around;
+}
+div.headings div.icons a{
+  background-color: #fffffe;
+  border-radius: 50px;
+  padding: 5px;
+}
+div.headings div.icons a img{
+  width: 3vw;
+  height: 6vh;
+  margin: 5px;
+  /* border-radius: 50px; */
+} 
+div.headings div.icons a:hover{
+  background-color: #f9bc60;
+}
+
+div.firstpage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  padding: 20px;
+  align-items: center;
+}
+div.headings{
+  color: #fffffe;
+}
+div.about{
+  height: 120vh;
+  background-color: #abd1c6;
+  padding: 20px;
+}
+div.about div.me{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+div.about div.resume{
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+div.resume button{
+  background-color: #f9bc60;
+  padding: 10px 25px;
+  border-radius: 20px;
+  
+}
+div.resume button a{
+  color: #001e1d;
+  font-size: 18px;
+  text-decoration: none;
+}
+div.about div.me p{
+  width: 50%;
+  height: 100%;
+  font-size: 20px;
+  line-height: 2;
+}
+div.about div.me img{
+  width: 30vw;
+  height: 80vh;
+}
+
+div.projects{
+  height: 120vh;
+  background-color: #004643;
+  padding: 20px;
+}
+
+div.projects div.items{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+
+}
+div.items figure{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 24%;
+  margin: 5px;
+  background-color: #e8e4e6;
+  border-radius: 10px;
+}
+div.items figure figcaption{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+figcaption h2{
+  color: #001e1d;
+  font-size: 20px;
+}
+figcaption p{
+  color: #0f3433;
+  font-size: 18px;
+}
+figcaption a{
+  background-color: #004643;
+  color: #fffffe;
+  width: 40%;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+div.items figure img{
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer{
+  height: 60vh;
+  padding: 10px;
+  background-color: #abd1c6;
+  color: #001e1d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer button{
+  width: 15%;
+  background-color: #f9bc60;
+  padding: 15px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+footer button a{
+  text-decoration: none;
+  color: #001e1d;
+  font-size: 16px;
+}
+
+footer div.icons{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 30%;
+}
+footer div.icons a{
+  background-color: #fffffe;
+  border-radius: 50px;
+  padding: 5px;
+}
+footer div.icons a:hover{
+  background-color: #f9bc60;
+}
+footer div.icons a img{
+  width: 3vw;
+  height: 6vh;
+  margin: 5px;
+  /* border-radius: 50px; */
+} 
